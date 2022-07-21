@@ -68,7 +68,7 @@ and a map that included the vacation stop's per the itinerary and  information c
 
 ## Summary
 
-In this project we utilized python, pandas libraries and APIs to create a comprehensive tool that our clients (PlanMyTrip) could use to provide a better experience to their customers. With some inputs about weather preferences from the customers, the tool will produce a list of hotels in locations that match the customers weather preferences. It will generate a series of heatmaps with pop-up markers with location, and weather information. 
+In this project we utilized python, pandas libraries and APIs to create a comprehensive tool that our clients (PlanMyTrip) could use to provide a better experience to their customers. With some inputs about weather preferences from the customers, the tool will produce a list of hotels in locations that match the customers weather selections. It will generate a series of heatmaps with pop-up markers with location, and weather information. 
 
 Also provides an interface for the customers to plan their vacations, with the customers input on the vacations stop's, the tool will generate an itinerary with each stop's information. Then it generates a series of maps with driving directions and info cards about each location's weather and hotels available. 
  
