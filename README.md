@@ -25,7 +25,7 @@ We were able to create a DataFrame with a list of random latitudes and longitude
 <br/>
 
 
-Then using the weather_DataFrame and Google Maps and Places API, we created a hotel_ DataFrame that included hotels in a specific range of weather selections depending in the client inputs. (Figure 1.2)
+Then using the weather_DataFrame and Google Maps and Places API, we created a hotel_ DataFrame that based on the customers weather preference inputs incorporated the hotels information that matched the customers weather selections. (Figure 1.2)
 
 
 ![hotels_df](./weather_data/Images/hotel_df.png)
@@ -34,11 +34,11 @@ Then using the weather_DataFrame and Google Maps and Places API, we created a ho
 
 <br/>
 
-Utilizing the hotel_DataFrame and google maps API, we generate a map with hotel markers and information cards about the location and wetaher conditions. (Figure 1.3)
+Utilizing the hotel_DataFrame and google maps API, we generate a heatmap with hotel pop-up markers information cards about the location and wetaher conditions. (Figure 1.3)
 
 ![weather_vacation_map](./Vacation_Search/WeatherPy_vacation_map.png)
 
-<sub>Figure 1.3 Map with hotels marker
+<sub>Figure 1.3 WheatherPy vacation map (heatmap with hotels pop-up markers).
 
 <br/>
 
@@ -46,15 +46,15 @@ In order to provide our client (PlanMyTrip) with a better tool for their custome
 
 ![vacation itinerary](./weather_data/Images/itinerary_df.png)
 
-<sub>Figure 1.4 Vacation Itinerary
+<sub>Figure 1.4 Vacation Itinerary DataFrame.
 
 <br/>
 
-Also generated a map with driving directions and the stops per the itinerary (Figure 1.5)
+Also generated a map with driving directions with the stops per the itinerary. (Figure 1.5)
 
 ![weather_travel_map}](./Vacation_Itinerary/WeatherPy_travel_map.png)
 
-<sub>Figure 1.5 Vacation map with driving directions
+<sub>Figure 1.5 WeatherPy travel map with driving directions (directions layer map).
 
 <br/>
 
@@ -62,15 +62,15 @@ and a map that included the vacation stop's per the itinerary and  information c
 
 ![weather_travel_map_markers](./Vacation_Itinerary/WeatherPy_travel_map_markers.png)
 
-<sub>Figure 1.6 Vacation map with markers
+<sub>Figure 1.6 WeatherPy travel map with pop-up markers.
 
 <br/>
 
 ## Summary
 
-In this project we utilized python, pandas libraries and APIs to create a comprehensive tool that our clients can use to provide a better experience to their customers. With some inputs about weather preferences from the customers, the tool will produce a list of hotels in locations that match the customers weather preferences. It will generate a series of maps with location, and weather information. 
+In this project we utilized python, pandas libraries and APIs to create a comprehensive tool that our clients (PlanMyTrip) could use to provide a better experience to their customers. With some inputs about weather preferences from the customers, the tool will produce a list of hotels in locations that match the customers weather preferences. It will generate a series of heatmaps with pop-up markers with location, and weather information. 
 
-Also provides an interface for the customers to plan their vacations, with the customers input on the vacations stop's, the tool will generate an itinerary with each stop's information. Then it generates a series of maps with driving directions and info cards about each location's weather and hotels. 
+Also provides an interface for the customers to plan their vacations, with the customers input on the vacations stop's, the tool will generate an itinerary with each stop's information. Then it generates a series of maps with driving directions and info cards about each location's weather and hotels available. 
  
 
 <br/>
@@ -78,4 +78,6 @@ Also provides an interface for the customers to plan their vacations, with the c
 ## References
 [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-[Matplotlib gallery](https://matplotlib.org/stable/plot_types/stats/pie.html#sphx-glr-plot-types-stats-pie-py)
+[gmaps documentation](https://jupyter-gmaps.readthedocs.io/en/latest/tutorial.html#directions-layer)
+ 
+[OpenWeatherMap](https://openweathermap.org/api)
