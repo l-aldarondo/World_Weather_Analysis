@@ -15,7 +15,7 @@ The client (PlanMyTrip) will use the data to recommend ideal hotels based on cli
 
 <br/>
 
-We were able to create a DataFrame with random cities around the world that included current weather conditions. (Figure 1.1)
+We were able to create a DataFrame with a list of random latitudes and longitudes, then using Pandas citypy module we found and matched random cities around the world. Finally we used OpenWeatherMap API to retrieve the current weather conditions for each random location. All this data was put together in a single DataFrame as shown in Figure 1.1.
 
 ![hotels_df](./weather_data/Images/weather_per_city_df.png)
 
@@ -25,7 +25,7 @@ We were able to create a DataFrame with random cities around the world that incl
 <br/>
 
 
-Then using the weather_DataFrame and google places API, we created a hotel_ DataFrame that included hotels in a specific range of weather selections depending in the client inputs. (Figure 1.2)
+Then using the weather_DataFrame and Google Maps and Places API, we created a hotel_ DataFrame that included hotels in a specific range of weather selections depending in the client inputs. (Figure 1.2)
 
 
 ![hotels_df](./weather_data/Images/hotel_df.png)
